@@ -1,0 +1,32 @@
+.container{
+    margin-top: 15px;
+    padding: 10px;
+}
+
+.col-8 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.row{
+    border: 1px solid red;
+}
+    
+.red {
+    color: red;
+    font-size: 50px;
+    margin: 20px;
+}
+  
+.blue {
+    color: blue;
+    font-size: 50px;
+    margin: 20px;
+}
+
+.green {
+    color: green;
+    font-size: 50px;
+    margin: 20px;
+}

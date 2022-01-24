@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- CSS only -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" 
+     rel="stylesheet" 
+     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" 
+     crossorigin="anonymous">
+     <!-- JavaScript Bundle with Popper -->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" 
+     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" 
+     crossorigin="anonymous" 
+     defer></script>
+    <title>Tarefa 4</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    
+    <!-- Fiz por o exemplo do professor, por uma questão de tempo -->
+    <!-- Mas sempre aproveitando bastante a didatica -->
+   
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a href="#" class="navbar-brand">Tarefa 4 </a href="tarefa 4">
+            <button 
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNav"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Toggle Navigation"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Categorias</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Final Navbar -->
+
+    <!-- Slider -->
+    <div class="container">
+        <div id="carousel" class="carousel slide" data-bs-ride="carousel" >
+            <div class="carousel-indicators">
+                
+                <button 
+                    type="button" 
+                    data-bs-target="carousel" 
+                    data-bs-slide-to="0"
+                    class="active"
+                    aria-current="true"
+                    aria-label="slide 1"
+                ></button>
+
+                <button 
+                    type="button" 
+                    data-bs-target="carousel" 
+                    data-bs-slide-to="1"
+                    aria-label="slide 2"
+                ></button>
+
+                <button 
+                    type="button" 
+                    data-bs-target="carousel" 
+                    data-bs-slide-to="2"
+                    aria-label="slide 3"
+                ></button>
+
+            </div>
+            <div class="carousel-inner">
+                
+                <div class="carousel-item active">
+                    <img src="img/img_1.jpg" alt="Cidade 1" class="d-block w-100">
+                </div>
+
+                <div class="carousel-item ">
+                    <img src="img/img_2.jpg" alt="Cidade 2" class="d-block w-100">
+                </div>
+
+                <div class="carousel-item ">
+                    <img src="img/img_3.jpg" alt="Cidade 3" class="d-block w-100">
+                </div>
+            </div>
+
+            <button 
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carousel1"
+                data-bs-slide="prev"
+            >
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+
+            <button 
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carousel1"
+                data-bs-slide="next"
+            >
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <!-- Final Slider -->
+    
+    <!-- Cards -->
+    <div class="container">
+        <div class="row g-4">
+            <!-- Inicio do card 1-->
+            <div class="col-3">
+                <div class="card">
+                    <img src="https://via.placeholder.com/500" class="card-img-top" alt="Alt 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Produto 1</h5>
+                        <div class="card-text">Descrição do produto</div>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Fim do card 1 -->
+
+            <!-- Inicio do card 2-->
+            <div class="col-3">
+                <div class="card">
+                    <img src="https://via.placeholder.com/500" class="card-img-top" alt="Alt 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Produto 2</h5>
+                        <div class="card-text">Descrição do produto</div>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Fim do card 2-->
+
+            <!-- Inicio do card 3-->
+            <div class="col-3">
+                <div class="card">
+                    <img src="https://via.placeholder.com/500" class="card-img-top" alt="Alt 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Produto 3</h5>
+                        <div class="card-text">Descrição do produto</div>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Fim do card 3-->
+
+            <!-- Inicio do card 4-->
+            <div class="col-3">
+                <div class="card">
+                    <img src="https://via.placeholder.com/500" class="card-img-top" alt="Alt 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Produto 4</h5>
+                        <div class="card-text">Descrição do produto</div>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Fim do card 4-->
+
+             <!-- Inicio do card 5-->
+             <div class="col-3">
+                <div class="card">
+                    <img src="https://via.placeholder.com/500" class="card-img-top" alt="Alt 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Produto 5</h5>
+                        <div class="card-text">Descrição do produto</div>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Fim do card 5-->
+
+             <!-- Inicio do card 6-->
+             <div class="col-3">
+                <div class="card">
+                    <img src="https://via.placeholder.com/500" class="card-img-top" alt="Alt 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Produto 6</h5>
+                        <div class="card-text">Descrição do produto</div>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Fim do card 6-->
+        </div>
+    </div>
+    <!-- Final Cards -->
+
+
+
+</body>
+</html>
